@@ -1,27 +1,9 @@
 [main]
-host = https://www.transifex.com
+host = https://www.transifex.com/
 
-[bahmni.endtb-customization-of-clinical-app]
-file_filter = openmrs/i18n/clinical/locale_<lang>.json
-source_file = openmrs/i18n/clinical/locale_en.json
-source_lang = en
-type = KEYVALUEJSON
-
-[bahmni.endtb-customization-of-home-app]
-file_filter = openmrs/i18n/home/locale_<lang>.json
-source_file = openmrs/i18n/home/locale_en.json
-source_lang = en
-type = KEYVALUEJSON
-
-[bahmni.endtb-customization-of-registration-app]
-file_filter = openmrs/i18n/registration/locale_<lang>.json
+[endtb.app-registration]
 source_file = openmrs/i18n/registration/locale_en.json
 source_lang = en
-type = KEYVALUEJSON
-
-[bahmni.endtb-customization-of-reports-app]
-file_filter = openmrs/i18n/reports/locale_<lang>.json
-source_file = openmrs/i18n/reports/locale_en.json
-source_lang = en
-type = KEYVALUEJSON
-
+trans.fr = openmrs/i18n/registration/locale_fr.json
+trans.es = openmrs/i18n/registration/locale_es.json
+trans.ru = openmrs/i18n/registration/locale_ru.json
