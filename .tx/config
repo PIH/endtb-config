@@ -7,3 +7,10 @@ source_lang = en
 trans.fr = openmrs/i18n/registration/locale_fr.json
 trans.es = openmrs/i18n/registration/locale_es.json
 trans.ru = openmrs/i18n/registration/locale_ru.json
+
+[endtb.app-home]
+source_file = openmrs/i18n/home/locale_en.json
+source_lang = en
+trans.fr = openmrs/i18n/home/locale_fr.json
+trans.es = openmrs/i18n/home/locale_es.json
+trans.ru = openmrs/i18n/home/locale_ru.json
